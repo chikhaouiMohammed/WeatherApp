@@ -1,0 +1,27 @@
+@media(max-width: 640px) {
+    #content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #weatherDetails{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #currentCity{
+        width: 100%;
+    }
+    #cityName{
+        font-size: 55px;
+    }
+    #hour{
+        font-size: 80px;
+    }
+    #date{
+        font-size: 30px;
+    }
+    #futureDaysWeather{
+        width: 100%;
+    }
+}
